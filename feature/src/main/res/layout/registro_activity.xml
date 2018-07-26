@@ -1,0 +1,48 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/txtregistro_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu Usuario y Password "
+        android:layout_gravity="center_horizontal"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etxtregistro_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/txtregistro_user"
+        android:text="Usuario"
+        android:textSize="28sp"
+        />
+
+    <EditText
+        android:id="@+id/etxtregistro_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/etxtregistro_user"
+        android:text="Passowrd"
+        android:textSize="28sp"
+        />
+    <Button
+        android:id="@+id/btnregresar_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/etxtregistro_password"
+        android:text="Listo"
+        android:textSize="28sp"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
